@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+.main{
+    width: 100%;
+    height: 200vh;
+    background-color: #111;
+    position: relative;
+}
+
+.img1{
+    position: absolute;
+     top: 5%;
+     left: 50%;
+     transform: translate(-50%, 0%);
+     border-radius: 30px;
+     width: 30vh;
+     height: 25vh;
+     background-image: url('images/p1.jpg');
+   background-position: center;
+   background-size: cover;
+}
+
+.img2{
+    position: absolute;
+     top: 10%;
+     left: 40%;
+     transform: translate(-50%, 0%);
+     border-radius: 30px;
+    width: 30vh;
+    height: 25vh;
+    background-color: rgb(106, 255, 0);
+    background-image: url('images/p2.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.img3{
+    position: absolute;
+     top: 15%;
+     right: 20%;
+     transform: translate(-50%, 0%);
+     border-radius: 30px;
+    width: 30vh;
+    height: 25vh;
+    background-color: rgb(0, 170, 255);
+    background-image: url('images/p3.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.img4{
+    position: absolute;
+     top: 25%;
+     left: 25%;
+     transform: translate(-50%, 0%);
+     border-radius: 30px;
+    width: 30vh;
+    height: 25vh;
+    background-color: rgb(255, 0, 132);
+    background-image: url('images/p4.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.img5{
+    position: absolute;
+     top: 30%;
+     left: 45%;
+     transform: translate(-50%, 0%);
+     border-radius: 30px;
+    width: 30vh;
+    height: 25vh;
+    background-color: rgb(255, 0, 0);
+    background-image: url('images/p5.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.img6{
+    position: absolute;
+     top: 35%;
+     left: 60%;
+     transform: translate(-50%, 0%);
+     border-radius: 30px;
+    width: 30vh;
+    height: 25vh;
+    background-color: rgb(255, 162, 0);
+    background-image: url('images/p6.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.img7{
+    position: absolute;
+     top: 50%;
+     left: 80%;
+     transform: translate(-50%, 0%);
+     border-radius: 30px;
+    width: 30vh;
+    height: 35vh;
+    background-color: rgb(0, 255, 55);
+    background-image: url('images/p8.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.img8{
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%, 0%);
+    border-radius: 30px;
+   width: 30vh;
+   height: 25vh;
+   background-color: rgb(0, 255, 170);
+   background-image: url('images/p9.jpg');
+   background-position: center;
+   background-size: cover;
+}
+
+
